@@ -1,11 +1,13 @@
 function setup() {
-createCanvas(400, 400);
+createCanvas(100, 100;
  
 }
 
 function draw() {
  background(0,128,0);
-    let c = color('red');
-    fill(c);
-    circle(100, 100, 50); 
+  
+ rectangle(50,50,75,75):
+ color('green');
+  circle(25,25,10); 
+ color('red');
 }
