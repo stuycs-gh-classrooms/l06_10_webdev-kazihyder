@@ -3,7 +3,7 @@ let m;
 let h;
 let x;
 function setup() {
-  createCanvas (400, 400,0);
+  createCanvas (500, 500,0);
   background(255);
   s=second();
   m=minute();
@@ -47,7 +47,7 @@ function drawHand ()
 function clockFace () {
   stroke(0, 0, 0);
   strokeWeight(1);
-  fill (120,120,200);
+  fill (0,0,255);
   circle(width/2, height/2, 300);
 
   beginShape(POINTS);
